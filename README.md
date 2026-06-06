@@ -78,8 +78,11 @@ python xyw.py
 
 ### 5. 取消开机自启动
 
-- 按 `Win + R`，输入 `shell:startup`
-- 删除 `CampusNetworkLogin.lnk`
+在文件资源管理器打开以下路径，删除 `CampusNetworkLogin.lnk`：
+
+```
+C:\Users\你的用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
 
 ## 原理
 
